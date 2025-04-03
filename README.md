@@ -101,6 +101,7 @@ classDiagram
 
     class ClienteBiblioteca {
         + main(String[]): void
+        - mostrarMenu(): void
         - buscarLibro(GestionBiblioteca, Scanner): void
         - prestarLibro(GestionBiblioteca, Scanner): void
         - devolverLibro(GestionBiblioteca, Scanner): void
